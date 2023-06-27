@@ -1,0 +1,83 @@
+#body{
+    background-color: rgb(197, 235, 235);
+    font-family: Lato;
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+.header{
+    font-family: Roboto Condensed;
+    font-weight: bolder;
+}
+
+#hand-holding-vase{
+    width: 300px;
+    height: 250px;
+    float: right;
+    margin: 20px;
+}
+
+#image-grid{
+    display: grid;
+    grid-template-columns: 320px 320px;
+    grid-template-rows: auto auto auto auto;
+    
+    
+}
+.images{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    margin-right: 5px;
+    transition: transform 300ms ease-in-out;
+
+}
+
+.images:hover{
+    transform: scale(1.2);
+    
+}
+
+.posts{
+    border: 2px solid burlywood;
+    padding: 2px;
+    margin: 10px;
+}
+
+#all-posts{
+    background-color: rgb(240, 215, 184);
+    width: 40vw;
+    float: right;
+    height: 2000px;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    
+    top: 0;
+}
+
+#main{
+    flex-wrap: wrap;
+}
+
+a:hover{
+    color: rgb(163, 39, 46);
+}
+
+#last-image{
+    margin-left: 170px;
+}
+
+.post-title{
+    margin-left: 5px;
+}
+
+.post-text{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@keyframes fade-in{
+    from {opacity: 0;}
+    to {opacity: 1;}
+    
+}
